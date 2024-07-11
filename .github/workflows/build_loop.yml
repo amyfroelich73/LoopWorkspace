@@ -38,7 +38,7 @@ jobs:
 
       # Submodule LoopKit patches:
           # LoopKit: Filename: insulin duration
-          #curl https://github.com/username/LoopKit/commit/570e7abf5587c21e771fa0034f2318577eb19314.patch | git apply -v --directory=LoopKit
+          curl https://github.com/amyfroelich73/LoopKit/commit/570e7abf5587c21e771fa0034f2318577eb19314.patch | git apply -v --directory=LoopKit
       
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
