@@ -35,7 +35,7 @@ jobs:
 
              curl https://github.com/amyfroelich73/Loop/commit/ca7f730c24fa2002017ac2abc94cdfd53a3e8576.patch | git apply -v --directory=Loop
       
-             curl https://github.com/amyfroelich73/Loop/commit/a510646e1235208e7dc61d3fcfa8e7f8bd2a39da.patch | git apply -v --directory=Loop
+             curl https://github.com/amyfroelich73/Loop/commit/6aa5ae7989fc309834946676979ed866349cfe8d.patch | git apply -v --directory=Loop
              
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
